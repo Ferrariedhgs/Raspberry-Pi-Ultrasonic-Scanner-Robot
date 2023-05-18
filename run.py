@@ -239,7 +239,7 @@ def scan():
     ax.set_theta_zero_location("N")
 
     ax.plot(rad,new)
-    ax.set_title("Scanarea")
+    ax.set_title("Scan")
     plt.savefig('static/IMG/fig.png', bbox_inches='tight')
     pi.hardware_PWM(buzzer, 500, 500000)
     time.sleep(0.5)
